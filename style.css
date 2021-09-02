@@ -10,13 +10,6 @@ body{
     height: 100vh;
 }
 
-.taskbar{
-    background-color: #073c7e;
-    width: 100%;
-    position: absolute; 
-    bottom: 0;  
-    display: flex; 
-    justify-content: center;
 }
 .startmenu{
     position: absolute;
@@ -30,6 +23,15 @@ body{
 .startmenu img{
     border-radius: 8px;
 }
+
+.taskbar{
+    background-color: #073c7e;
+    width: 100%;
+    position: absolute; 
+    bottom: 0;  
+    display: flex; 
+    justify-content: center;
+
 .right{
     justify-self: flex-end;
     position: absolute;
